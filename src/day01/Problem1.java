@@ -1,9 +1,11 @@
+package day01;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main {
+public class Problem1 {
 
     private static void readLinesAndAddElements(List<Integer> firstList,List<Integer> secondList,HashMap<Integer,Integer> map) {
         String line;
