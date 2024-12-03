@@ -6,9 +6,8 @@ import java.util.*;
 public class Main {
 
     private static void readLinesAndAddElements(List<Integer> firstList,List<Integer> secondList,HashMap<Integer,Integer> map) {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String line;
-        try {
+        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in));) {
             while ((line = br.readLine()) != null) {
                 String[] nums = line.split("\\s+");
                 Integer firstNum = Integer.parseInt(nums[0]);
@@ -19,13 +18,7 @@ public class Main {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                br.close();
-            } catch (IOException e) {
-                e.printStackTrace();
             }
-        }
     }
     //complexity of O(n)
     private static void firstTaskPrint(List<Integer> firstList, List<Integer> secondList) {

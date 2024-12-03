@@ -1,5 +1,3 @@
 
-r
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8–ŒÒÎ¸2J$049e6474-b73f-49a6-9fb8-b92d97999630
-m	java:S106$"+Replace this use of System.out by a logger.(‚¨Ö§8—ŒÒÎ¸2J$82a36528-017e-4681-8381-12e497c22a8a
-m	java:S106,"+Replace this use of System.out by a logger.(‚¨Ö§8ŠÕÎ¸2J$855247ea-9f87-404e-a6a5-eedd69ea1dc4
+m	java:S106"+Replace this use of System.out by a logger.(‚¨Ö§8¬™ÕÏ¸2J$985fd523-5e87-423e-a5e7-162f8b92b16e
+m	java:S106%"+Replace this use of System.out by a logger.(‚¨Ö§8­™ÕÏ¸2J$e180b3c1-11a2-42dc-9747-c6b70e52ae61
