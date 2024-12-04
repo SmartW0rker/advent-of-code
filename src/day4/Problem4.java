@@ -2,9 +2,6 @@ package day4;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 public class Problem4 {
     public static void main(String[] args) {
